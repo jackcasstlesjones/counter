@@ -1,0 +1,17 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(255, 217, 225);
+}
+
+.prevent-select {
+  cursor: pointer;
+  margin-top: 300px;
+  color: yellow;
+  /* font-style: italic; */
+  font-size: 100px;
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+}
